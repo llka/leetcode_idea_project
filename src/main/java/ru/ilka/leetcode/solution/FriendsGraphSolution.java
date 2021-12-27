@@ -41,6 +41,7 @@ public class FriendsGraphSolution {
         });
 
 
+        // поиск связных компонет графа
         // group friends via dfs
         for (String friend : friendsGroups.keySet()) {
             if (NOT_DEFINED_GROUP.equals(friendsGroups.get(friend))) {
